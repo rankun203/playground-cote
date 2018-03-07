@@ -1,0 +1,165 @@
+<Find 
+ cache 
+ mine 
+ getMore 
+ pull 
+ service='events'
+ quesry={{ $sort: createdAt: -1 }}
+ component={}
+ itemcompont
+ >
+
+  <Comments />
+</Find>
+
+<Find url='mycompany.com/events'>
+
+</FInd>
+]
+
+{
+  type: 'SERVER/FIND',
+  serive: 
+  meta: {
+  }
+}
+users:
+  image: myk/mykro
+  env
+    ROLE: data
+    DB: mongo
+    DB_HOST: localhost
+    FIELDS: title&as|name,email, phone&as|phoneNumber, password 
+
+ {
+   sockets: true, 
+   c = 'app'
+ }
+
+zhxi.coasdf
+
+
+ {
+   type: 'GOTO',
+   payload: Klient.get('providers')
+ }
+
+
+
+{
+  SERVER/FIND
+}
+
+
+{
+  type: 'SERVER/UPDATE'
+  payload: {
+
+  }
+}
+
+ Redux 
+ saga 
+ react 
+ MyKro 
+
+
+
+
+const comments = (p) => {
+
+  p.items.foreach(i,ii => <Comment />)
+
+}
+
+host = 'localhost'
+port = '3333'
+
+const Find = () => {
+  const service = p.service
+
+  getData() {
+    return fetch({ url: `${host}:${port}/${service}` })
+  }
+
+ render() {
+   return <Items onBottom={}data={getData()} />
+ }
+
+}
+
+Find.defaultProps = {
+  childKey = 'data'
+}
+
+
+{
+  total: int,
+  skip: '',
+  limit:d
+  data= [{},{}]
+}
+
+
+
+
+env 
+  FIELDS: *!$?$title, teaser&max|300
+
+
+
+
+
+
+  version '3'
+
+
+  services:
+    auth:
+      image: myk/mykro
+      env:
+        NAME: authentication 
+        ROLE: auth
+    users:
+      image: myk/mykro
+      env
+        NAME: users
+        ROLE: data
+        DB: mongo
+        DB_HOST: localhost
+        FIELDS: title&as|name,email, phone&as|phoneNumber, password 
+    products:
+      image: myk/mykro
+      env
+        ROLE: data
+        DB: mongo
+        DB_HOST: localhd
+        FIELDS: title, text&as|description, teaser, sku, gallery,price, discount,comments&via|comments, boolean&as|isLiked&via|like
+
+    comments:
+
+    number&list|true&as|va
+
+
+  &list|1
+
+    Products => Cache || 
+    Like => creates a like +> increments the cache . 
+
+
+    hooks = {
+     after: {} 
+    }
+
+
+    role: 'flow'
+
+
+   import Mykro from Mykro
+
+
+
+import 
+
+Mykro('likes')
+
